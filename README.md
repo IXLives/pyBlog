@@ -6,11 +6,13 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pyBlog
 
 ```bash
 pip install -e .
-flask run
 ```
 
 ## Usage
 Write on it, dude
+```bash
+flask run
+```
 
 ## Contributing
 Pull requests are welcome.
