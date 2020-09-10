@@ -11,10 +11,11 @@ def create_app(test_config=None):
         SECRET_KEY='nine',
         DATABASE=os.path.join(app.instance_path, 'pyblog.sqlite'),
     )
-    from . import db
-    from . import auth
+    from . import (db, auth, blog)
     db.init_app(app)
     app.register_blueprint(auth.bp)
+    app.register_blueprint(blog.bp)
+    app.add_url_rule('/', endpoint='index')
 
     # Check for test env
     if test_config is None:
