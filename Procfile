@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT 'pyBlog:create_app'
+web: waitress-serve --port=$PORT pyBlog:create_app
