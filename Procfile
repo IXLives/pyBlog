@@ -1,2 +1,2 @@
 web: gunicorn pyBlog:create_app
-init: flask init-db
+init: __init__.py
