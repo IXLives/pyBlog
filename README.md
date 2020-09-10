@@ -11,7 +11,7 @@ pip install -e .
 ## Usage
 Write on it, dude
 ```bash
-flask run
+waitress-serve --call 'pyBlog:create_app'
 ```
 
 ## Contributing
