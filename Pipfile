@@ -6,10 +6,8 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-gunicorn = "*"
 flask = "*"
 waitress = "*"
-jinja = "*"
 werkzeug = "*"
 
 [requires]
