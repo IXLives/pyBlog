@@ -1,1 +1,2 @@
-web: waitress-serve --port=$PORT pyBlog:create_app
+web: gunicorn pyBlog:create_app
+init: flask init-db
