@@ -1,1 +1,1 @@
-web: gunicorn pyBlog:create_app
+web: waitress-serve --call 'pyBlog:create_app'
