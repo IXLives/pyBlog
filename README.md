@@ -5,7 +5,8 @@ Blog app made with Python(Flask)
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install pyBlog
 
 ```bash
-pip install pyBlog
+pip install -e .
+flask run
 ```
 
 ## Usage
