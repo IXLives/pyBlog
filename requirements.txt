@@ -1,5 +1,2 @@
-os
 flask
 sqlite3
-click
-werkzeug
