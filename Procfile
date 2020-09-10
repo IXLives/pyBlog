@@ -1,2 +1,2 @@
 web: gunicorn pyBlog:create_app
-init: python ./pyBlob/__init__.py
+init: python ./pyBlog/__init__.py
