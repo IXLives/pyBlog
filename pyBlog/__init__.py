@@ -11,6 +11,8 @@ def create_app(test_config=None):
         SECRET_KEY='nine',
         DATABASE=os.path.join(app.instance_path, 'pyblog.sqlite'),
     )
+    from . import db
+    db.init_app(app)
 
     # Check for test env
     if test_config is None:
